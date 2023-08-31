@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-image: url(../img/teste.avif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
