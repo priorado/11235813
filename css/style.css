@@ -1,11 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+body {
+    background-image: url(../img/imagemfundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-body{
-    background-image: url(../img/teste.avif);
-    background-size: 100%;
-    background-repeat: no-repeat;
+.credit {
+    background: rgba(206, 60, 60, 0.75);
+    font-size: 3em;
+    color: whitesmoke;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.credit a {
+    color: turquoise;
+    transition: 1s;
+}
+
+.credit a:hover {
+    color: white;
+    text-shadow: 0 0 8px white;
 }
